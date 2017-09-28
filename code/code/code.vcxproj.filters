@@ -1,0 +1,95 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="源文件">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="头文件">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;hm;inl;inc;xsd</Extensions>
+    </Filter>
+    <Filter Include="资源文件">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="openssl">
+      <UniqueIdentifier>{fd896c21-b35d-49d7-9db3-d9c8eb98678c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="openssl\crypto">
+      <UniqueIdentifier>{5946419a-519b-491c-a0d6-cf121f3c8716}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="openssl\crypto\aes">
+      <UniqueIdentifier>{ed76df39-bc23-4f72-a755-9a72a064f0fa}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="openssl\crypto\modes">
+      <UniqueIdentifier>{5e7d3e5d-5f02-4151-892c-e5438b3bcae3}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <Text Include="ReadMe.txt" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="stdafx.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="targetver.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="openssl\e_os2.h">
+      <Filter>openssl</Filter>
+    </ClInclude>
+    <ClInclude Include="openssl\crypto\crypto.h">
+      <Filter>openssl\crypto</Filter>
+    </ClInclude>
+    <ClInclude Include="openssl\crypto\opensslconf.h">
+      <Filter>openssl\crypto</Filter>
+    </ClInclude>
+    <ClInclude Include="openssl\crypto\modes\modes.h">
+      <Filter>openssl\crypto\modes</Filter>
+    </ClInclude>
+    <ClInclude Include="openssl\crypto\modes\modes_lcl.h">
+      <Filter>openssl\crypto\modes</Filter>
+    </ClInclude>
+    <ClInclude Include="openssl\crypto\aes\aes.h">
+      <Filter>openssl\crypto\aes</Filter>
+    </ClInclude>
+    <ClInclude Include="openssl\crypto\aes\aes_locl.h">
+      <Filter>openssl\crypto\aes</Filter>
+    </ClInclude>
+    <ClInclude Include="aes.h">
+      <Filter>源文件</Filter>
+    </ClInclude>
+    <ClInclude Include="base64.h">
+      <Filter>源文件</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="stdafx.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="code.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="openssl\crypto\modes\cbc128.c">
+      <Filter>openssl\crypto\modes</Filter>
+    </ClCompile>
+    <ClCompile Include="openssl\crypto\aes\aes_cbc.c">
+      <Filter>openssl\crypto\aes</Filter>
+    </ClCompile>
+    <ClCompile Include="openssl\crypto\aes\aes_x86core.c">
+      <Filter>openssl\crypto\aes</Filter>
+    </ClCompile>
+    <ClCompile Include="aes.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="base64.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="openssl\crypto\opensslconf.h.in">
+      <Filter>openssl\crypto</Filter>
+    </None>
+  </ItemGroup>
+</Project>
